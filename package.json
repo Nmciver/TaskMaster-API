@@ -1,0 +1,24 @@
+{
+  "name": "taskmaster-api",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "app.js",
+  "scripts": {
+  "start": "node app.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nmciver/TaskMaster-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nmciver/TaskMaster-API/issues"
+  },
+  "homepage": "https://github.com/Nmciver/TaskMaster-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  }
+}
