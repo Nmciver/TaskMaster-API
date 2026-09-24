@@ -1,7 +1,10 @@
 const express = require("express");
+const helmet = require("helmet");
 const _ = require("lodash");
 
 const app = express();
+
+app.use(helmet());
 const PORT = 8080;
 
 app.use(express.json());
